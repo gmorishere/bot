@@ -1,5 +1,5 @@
 return {
-	bot_api_key = '',
+	bot_api_key = '167740646:AAEhPdjhmTguC4FNnBe5CqsL3miu-fD_vK0',
 	google_api_key = '',
 	google_cse_key = '',
 	lastfm_api_key = '',
@@ -7,17 +7,18 @@ return {
 	biblia_api_key = '',
 	thecatapi_key = '',
 	time_offset = 0,
-	lang = 'en',
+	lang = 'en,fa,persian',
 	cli_port = 4567,
-	admin = 00000000,
-	admin_name = 'John Smith',
+	admin = 120294695,52038630,165727799,152644841,
+	admin_name = 'RyanGmor and Sepehr',
 	about_text = [[
-I am otouto, the plugin-wielding, multi-purpose Telegram bot written by topkecleon.
-
 Send /help to get started.
+را بزنید /help برای شروع
 
 Join my channel for news about updates!
-telegram.me/otouto
+برای دیدن جدید ترین اخبار جوین کاناله ما شوید
+telegram.me/Teleshield
+@Teleshield
 ]]	,
 	errors = {
 		connection = 'Connection error.',
@@ -34,35 +35,49 @@ telegram.me/otouto
 	greetings = {
 		['Hello, #NAME.'] = {
 			'hello',
+			'سلام',
 			'hey',
+			'ســـــــــــــــــــــــــــلام',
 			'sup',
+			'چطوری',
 			'hi',
 			'good morning',
+			'صبح بخیر',
 			'good day',
+			'روز بخیر',
 			'good afternoon',
-			'good evening'
+			'ظهر بخیر',
+			'good evening',
+			'عصر بخیر'
 		},
 		['Goodbye, #NAME.'] = {
+			'بای',
 			'bye',
 			'later',
+			'میبینمت',
 			'see ya',
-			'good night'
+			'good night',
+			'شب خوش'
 		},
 		['Welcome back, #NAME.'] = {
 			'i\'m home',
 			'i\'m back'
 		},
 		['You\'re welcome, #NAME.'] = {
+			'ممنون',
 			'thanks',
 			'thank you'
 		}
 	},
 	moderation = {
 		admins = {
-			['00000000'] = 'You'
+			['120294695'] = 'Us',
+			['52038630'] = 'Us',
+			['165727799'] = 'Us',
+			['152644841'] = 'Us'
 		},
-		admin_group = -00000000,
-		realm_name = 'My Realm'
+		admin_group = -44169040,
+		realm_name = '🔰shield bot🔰[realm]'
 	},
 	plugins = {
 		'blacklist.lua',
